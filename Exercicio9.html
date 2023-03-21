@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício-9</title>
+</head>
+<style>
+    h2 {
+        color: navy;
+    }
+</style>
+<body>
+    <center><h2>Será que eu posso votar ou não?</h2></center>
+
+    <script>
+        let ano_Nascimento = prompt("Informe seu ano de nascimento:");
+
+        idade = 2023 - ano_Nascimento;
+
+        if (idade < 16) {
+            document.write("<center>Você ainda não está possibilitado a votação!</center>");
+        } else {
+            document.write("<center>Você já está possibilitado para votação!!</center>");
+        }
+    </script>
+</body>
+</html>

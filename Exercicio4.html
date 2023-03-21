@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício-4</title>
+</head>
+<style>
+    h2 {
+        color:darkviolet;
+    }
+</style>
+<body>
+    <center><h2>Os valores:</h2></center>
+
+    <script>
+        let numero01 = prompt("Adicione o primeiro valor:");
+        let numero02 = prompt("Adicione o segundo valor:");
+
+        if (numero01 > numero02) {
+            document.write("<center><b>" + numero01 + "</b> é MAIOR em relação ao <b>" + numero02 + "</b></center>");
+        } else if (numero02 > numero01) {
+            document.write("<center><b>" + numero02 + "</b> é MAIOR em relação ao <b>" + numero01 + "</b></center>");
+        } else {
+            document.write("<center><b>" + numero01 + "</b> e <b>" + numero02 + "</b> ambos são números iguais.</center>");
+        }
+    </script>
+</body>
+</html>

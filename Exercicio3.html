@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício-3</title>
+</head>
+
+<style>
+    h1 {
+        color: rgb(0, 197, 197);
+    }
+</style>
+
+<body>
+    <center><h1>Qual o maior valor em relação aos 3?</h1></center>
+
+    <script>
+        let numero1 = prompt("Informe o valor primário:"); 
+        let numero2 = prompt("Informe o valor secundário:"); 
+        let numero3 = prompt("Informe o valor terciário:"); 
+
+        if (numero1 > numero2 && numero1 > numero3) {
+            document.write("<center>O valor: " + numero1 + " é o maior em relação aos 3!</center>");
+        } else if (numero2 > numero1 && numero2 > numero3) {
+            document.write("<center>O valor: " + numero2 + " é o maior em relação aos 3!</center>");
+        } else {
+            document.write("<center>O valor: " + numero3 + " é o maior em relação aos 3!</center>");
+        }
+    </script>
+</body>
+</html>

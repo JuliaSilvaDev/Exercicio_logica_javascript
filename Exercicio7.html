@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício-7</title>
+</head>
+<style>
+    h2 {
+        color: sienna;
+    }
+</style>
+<body>
+    <center><h2>Soma dos valores abaixo de 72</h2></center>
+
+    <script>
+        let numero1 = parseInt(prompt("Qual seria o primeiro valor: "));
+        let numero2 = parseInt(prompt("Qual seria o segundo valor: "));
+        let numero3 = parseInt(prompt("Qual seria o terceiro valor: "));
+        let numero4 = parseInt(prompt("Qual seria o quarto valor: "));
+        let numero5 = parseInt(prompt("Qual seria o quinto valor: "));
+        let numero6 = parseInt(prompt("Qual seria o sexto valor: "));
+        let soma = 0;
+
+        if (numero1 < 72) {
+            soma = soma + numero1;
+        }
+        if (numero2 < 72) {
+            soma = soma + numero2;
+        }
+        if (numero3 < 72) {
+            soma = soma + numero3;
+        }
+        if (numero4 < 72) {
+            soma = soma + numero4;
+        }
+        if (numero5 < 72) {
+            soma = soma + numero5;
+        }
+        if (numero6 < 72) {
+            soma = soma + numero6;
+        }
+
+        document.write("<center>A soma dos valores somados seria: <b>" + soma + "</b></center>");
+    </script>
+</body>
+</html>
